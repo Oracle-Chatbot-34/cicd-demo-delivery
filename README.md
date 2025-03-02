@@ -45,4 +45,4 @@ docker build -t java-cicd-demo .
 docker run -p 8080:8080 java-cicd-demo
 ```
 
-Once running, access the application at http://localhost:8080
+Once running, access the application at http://localhost:8080.

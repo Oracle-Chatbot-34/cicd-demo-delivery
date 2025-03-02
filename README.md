@@ -16,20 +16,20 @@ The CI/CD pipeline does the following:
 
 1. **Build Job**
    - Checks out the code
-   - Sets up JDK 11
+   - Sets up JDK 17
    - Builds the application with Maven
    - Logs in to DockerHub
    - Builds and pushes the Docker image
 
 2. **Test Job**
    - Checks out the code
-   - Sets up JDK 11
+   - Sets up JDK 17
    - Runs tests with Maven
 
 ## Running Locally
 
 ### Prerequisites
-- Java 11 or higher
+- Java 17 or higher
 - Maven
 - Docker (optional)
 
